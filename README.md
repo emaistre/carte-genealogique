@@ -23,4 +23,4 @@ L'échelle de couleur indique l'éloignement depuis le 1 (origine de l'arbre).
 
 ## 🔗 Démo
 
-[👉 Cliquez ici pour voir la visualisation en ligne](https://tonapp.onrender.com)
+[👉 Cliquez ici pour voir la visualisation en ligne (déployé via render)](https://carte-genealogique-2.onrender.com/)

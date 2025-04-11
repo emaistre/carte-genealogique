@@ -35,7 +35,7 @@ def index():
     fig = go.Figure()
 
     color_scale = [
-        [0, 'rgb(0, 0, 255)'],       # Bleu
+        [0, 'rgb(0, 0, 255)'],   # Bleu
         [1, 'rgb(255, 0, 0)']    # Rouge
     ]
 
