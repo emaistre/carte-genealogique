@@ -47,7 +47,7 @@ data_merged['papa'] = data_merged['sosa'] * 2
 data_merged['maman'] = data_merged['sosa'] * 2 + 1
 
 # Colonnes finales conservées dans villes_cartes (pour être sur la carte)
-data_final = data_merged[["sosa", "coord_json", "insee", "qui", "papa", "maman", "Commune"]]
+data_final = data_merged[["sosa", "coord_json", "insee", "papa", "maman", "Commune"]]
 
 # Enregistrement automatique au même endroit (attention écrase l'ancien fichier !)
 villes_carte = os.path.join(current_directory, 'data', 'villes_carte.csv')

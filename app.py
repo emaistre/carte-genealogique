@@ -66,7 +66,6 @@ def index():
         maman_sosa = df.loc[df['sosa'] == i, 'maman'].values[0]
         point1 = json.loads(df.loc[df['sosa'] == i, 'coord_json'].values[0])
         test = df.loc[df['sosa'] == papa_sosa, 'coord_json']
-        papa_nom = df.loc[df['sosa'] == papa_sosa, 'qui'].values[0] if not df.loc[df['sosa'] == papa_sosa].empty else "Inconnu"
         log_papa = math.floor(math.log(papa_sosa, 2)) if papa_sosa > 0 else 0  # Calcul de la partie entière du log base 2
         if not test.empty:
             point2 = json.loads(test.values[0])
