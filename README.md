@@ -22,4 +22,6 @@ L'échelle de couleur indique l'éloignement depuis le 1 (origine de l'arbre).
 
 ## 🔗 Démo
 
+![Visualisation de la carte des ascendants généalogique](image.png)
+
 [👉 Cliquez ici pour voir la visualisation en ligne (déployé via render)](https://carte-genealogique-2.onrender.com/)
